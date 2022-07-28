@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title',"Movies Top 10")
+
 @section('content')
     <div class="cards container">
         @foreach ($movies as $movie)

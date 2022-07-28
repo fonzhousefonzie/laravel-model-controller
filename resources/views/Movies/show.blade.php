@@ -8,6 +8,8 @@ $movieOverview = $movieObj['results'][0]['overview'];
 $moviePop = $movieObj['results'][0]['popularity'];
 @endphp
 
+@section('title',"Movies Top 10:  #".$movie['id']." ".$movie['title'])
+
 @section('content')
     <div class="movie container">
         <a href="{{route('movies.index')}}"><span class="iconify" data-icon="akar-icons:arrow-back-thick-fill"></span> INDIETRO</a>
