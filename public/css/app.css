@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100%3b0,200%3b0,300%3b0,400%3b0,500%3b0,600%3b0,700%3b0,800%3b0,900%3b1,100%3b1,200%3b1,300%3b1,400%3b1,500%3b1,600%3b1,700%3b1,800&display=swap);body {
+  background-color: #87ceeb;
+  font-family: "Poppins", sans-serif;
+}
+
+body .cards-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+body .cards-container .card {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #87ceeb;
+  box-shadow: 30px 30px 60px #73afc8, -30px -30px 60px #9bedff;
+}
+
+body .cards-container .card:hover {
+  background: linear-gradient(145deg, #7ab9d4, #90dcfb);
+  box-shadow: 20px 20px 60px #73afc8, -20px -20px 60px #9bedff;
+}
+
+body .cards-container .card:active {
+  background: #87ceeb;
+  box-shadow: inset 20px 20px 60px #73afc8, inset -20px -20px 60px #9bedff;
+}
+
+body .cards-container .card .specs ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+body .cards-container .card .specs ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: capitalize;
+}
+

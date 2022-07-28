@@ -10,8 +10,6 @@ class PageController extends Controller
     function index() {
         $data = Movie::all();
 
-        dump($data);
-
         return view('movies.index',[
             "movies" => $data
         ]);
